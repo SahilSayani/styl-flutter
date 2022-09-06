@@ -1,7 +1,9 @@
+import 'package:dressr/constants.dart';
+import 'package:dressr/screens/home_screen.dart';
 import 'package:flutter/material.dart';
 
 void main() {
-  runApp(const MyApp());
+  runApp(MyApp());
 }
 
 class MyApp extends StatelessWidget {
@@ -9,26 +11,13 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-     return MaterialApp(
-       home: Scaffold(
-        appBar: AppBar(
-          centerTitle: true,
-          backgroundColor: Colors.grey,
-          title: const Text(
-            "Homepage",
-            style: TextStyle(
-              color: Colors.black,
-            ),
-          ),
-        ),
-        body: const Text(
-            "body",
-            style: TextStyle(
-              color: Colors.black,
-            ),
-          ),
-         ),
-     );
+    return MaterialApp(
+      debugShowCheckedModeBanner: false,
+      title: 'FlutterApp',
+      theme: ThemeData(
+        textTheme: Theme.of(context).textTheme.apply(bodyColor: kTextColor),
+      ),
+      home: HomeScreen(),
+    );
   }
-  }
-
+}
