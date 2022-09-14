@@ -1,4 +1,4 @@
-# dressr
+# styl
 
 A new Flutter project.
 
