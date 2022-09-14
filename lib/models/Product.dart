@@ -5,20 +5,20 @@ class Product {
   final int price, size, id;
   final Color color;
   Product({
-    this.id,
-    this.image,
-    this.title,
-    this.price,
-    this.description,
-    this.size,
-    this.color,
+    required this.id,
+    required this.image,
+    required this.title,
+    required this.price,
+    required this.description,
+    required this.size,
+    required this.color,
   });
 }
 
 List<Product> products = [
   Product(
       id: 1,
-      title: "Office Code",
+      title: "Blue Handbag",
       price: 234,
       size: 12,
       description: dummyText,
