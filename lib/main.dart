@@ -1,5 +1,5 @@
 import 'package:dressr/constants.dart';
-import 'package:dressr/screens/home_screen.dart';
+import 'package:dressr/screens/home/home_screen.dart';
 import 'package:flutter/material.dart';
 
 void main() {

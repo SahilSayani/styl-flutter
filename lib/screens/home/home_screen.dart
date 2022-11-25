@@ -1,5 +1,6 @@
 import 'package:dressr/constants.dart';
-import 'package:dressr/screens/components/body.dart';
+import 'package:dressr/models/Product.dart';
+import 'package:dressr/screens/home/components/body.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 
