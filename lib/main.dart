@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:styl/screens/login_screen.dart';
 import 'package:styl/screens/checkout.dart';
+import 'screens/signup.dart';
 import 'screens/home/home_screen.dart';
 
 void main() {
@@ -23,6 +24,7 @@ class MyApp extends StatelessWidget {
       routes: {
         'home_screen': (context) => HomeScreen(),
         'login_screen': (context) => LoginPage(),
+        'sign_up_screen': (content) => SignUp(),
         'checkout_screen': (content) => CheckoutPage(),
       },
     );
